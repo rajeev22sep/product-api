@@ -82,8 +82,6 @@
 								<workerType>MICRO</workerType>
 								<properties>
 									<http.port>9092</http.port>
-									<http.basePath>/api/v1/sandbox</http.basePath>
-									<http.path>product/*</http.path>
 									<env>Sandbox</env>
 								</properties>
 							</cloudHubDeployment>
@@ -110,8 +108,6 @@
 								<objectStoreV2>true</objectStoreV2>
 								<properties>
 									<http.port>9092</http.port>
-									<http.basePath>/api/v1/design</http.basePath>
-									<http.path>product/*</http.path>
 									<env>Design</env>
 								</properties>
 							</cloudHubDeployment>

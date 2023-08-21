@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd ">
-    <http:listener-config name="retail_product_system_api-httpListenerConfig" basePath="${http.basePath}">
+    <!-- <http:listener-config name="retail_product_system_api-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="${http.port}" />
-    </http:listener-config>
+    </http:listener-config> -->
     <apikit:config name="retail_product_system_api-config" api="retail_product_system_api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
     <flow name="retail_product_system_api-main">
-        <http:listener config-ref="retail_product_system_api-httpListenerConfig" path="${http.path}">
+        <http:listener config-ref="retail_product_system_api-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
                 <http:headers><![CDATA[#[vars.outboundHeaders default {}]]]></http:headers>
             </http:response>
