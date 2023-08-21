@@ -18,6 +18,7 @@
 		<cloudhub.password>Rajeev@22sep</cloudhub.password>
 		<cloudhub.target>onprem-windows</cloudhub.target>
 		<cloudhub.environment.design>Design</cloudhub.environment.design>
+		<cloudhub.environment.sandbox>Sandbox</cloudhub.environment.sandbox>
 		<cloudhub.mule.version>4.4.0</cloudhub.mule.version>
 
 
