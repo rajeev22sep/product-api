@@ -14,8 +14,8 @@
 	<properties>
 		<!-- Mule Maven Plugin Properties -->
 		<cloudhub.applicationName>${project.artifactId}</cloudhub.applicationName>
-		<cloudhub.username>RajeevRanjan_AUG2023</cloudhub.username>
-		<cloudhub.password>Rajeev@22sep</cloudhub.password>
+		<!-- <cloudhub.username>RajeevRanjan_AUG2023</cloudhub.username>
+		<cloudhub.password>Rajeev@22sep</cloudhub.password> -->
 		<cloudhub.target>onprem-windows</cloudhub.target>
 		<cloudhub.environment.design>Design</cloudhub.environment.design>
 		<cloudhub.environment.sandbox>Sandbox</cloudhub.environment.sandbox>
@@ -81,6 +81,8 @@
 								<workers>1</workers>
 								<workerType>MICRO</workerType>
 								<properties>
+									<anypoint.platform.client_id>${sandbox.clientId}</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>${sandbox.clientSecret}</anypoint.platform.client_secret>
 									<http.port>9092</http.port>
 									<env>Sandbox</env>
 								</properties>
