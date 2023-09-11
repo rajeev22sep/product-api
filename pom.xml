@@ -14,8 +14,7 @@
 	<properties>
 		<!-- Mule Maven Plugin Properties -->
 		<cloudhub.applicationName>${project.artifactId}</cloudhub.applicationName>
-		<!-- <cloudhub.username>RajeevRanjan_AUG2023</cloudhub.username>
-		<cloudhub.password>Rajeev@22sep</cloudhub.password> -->
+		<!-- <cloudhub.username>RajeevRanjan_AUG2023</cloudhub.username> <cloudhub.password>Rajeev@22sep</cloudhub.password> -->
 		<cloudhub.target>onprem-windows</cloudhub.target>
 		<cloudhub.environment.design>Design</cloudhub.environment.design>
 		<cloudhub.environment.sandbox>Sandbox</cloudhub.environment.sandbox>
@@ -26,11 +25,11 @@
 		<cloudhub.properties.anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com</cloudhub.properties.anypoint.platform.analytics_base_uri>
 		<cloudhub.properties.anypoint.platform.coreservice_base_uri>https://anypoint.mulesoft.com/accounts</cloudhub.properties.anypoint.platform.coreservice_base_uri>
 		<cloudhub.properties.anypoint.platform.platform_base_uri>https://anypoint.mulesoft.com/apiplatform</cloudhub.properties.anypoint.platform.platform_base_uri>
-		<cloudhub.properties.anypoint.platform.client_id>760cdad6b79e4c0e985ef15bbe3ca5fd</cloudhub.properties.anypoint.platform.client_id>
-		<cloudhub.properties.anypoint.platform.client_secret>B366F31ff67E4FA7a4FFa47972D0c5D8</cloudhub.properties.anypoint.platform.client_secret>
+		<cloudhub.properties.anypoint.platform.client_id>10b0cd810610467284a19c19a7f96988</cloudhub.properties.anypoint.platform.client_id>
+		<cloudhub.properties.anypoint.platform.client_secret>BF5aA527a88f43bF96cbEFE94B452099</cloudhub.properties.anypoint.platform.client_secret>
 		<cloudhub.properties.anypoint.platform.uri>https://anypoint.mulesoft.com</cloudhub.properties.anypoint.platform.uri>
 
-		<anypoint.org.id>a60c4429-e2ec-4a7f-909b-22d5527d9562</anypoint.org.id>
+		<anypoint.org.id>3d07c5d1-46b1-49a3-8386-c9abf2d9688e</anypoint.org.id>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
