@@ -9,7 +9,7 @@
 	<version>1.0.2</version>
 	<packaging>mule-application</packaging>
 
-	<name>product-api</name>
+	<name>prdct-api</name>
 
 	<properties>
 		<!-- Mule Maven Plugin Properties -->
